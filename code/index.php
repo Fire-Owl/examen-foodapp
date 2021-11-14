@@ -110,8 +110,12 @@
     <footer>
 
         <div class="footer">
+            <span> Home Fresh of Product </span>
 
-        </div>
+
+            <p>cgv</p>
+            <p>About us</p>
+
     </footer>
 
     <script src="../assets/script/burger.js"></script>

@@ -239,6 +239,11 @@ h1 {
   width: 320px;
 }
 
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 540px) {
   .container_1 {
     display: flex;
