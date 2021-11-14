@@ -14,7 +14,7 @@
     <header>
 
         <nav class="navbar">
-            <div class="brand-title">Brand Name</div>
+            <img class="logo" src="../assets/images/logo.svg" alt="">
             <a href="#" class="toggle-button">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -75,7 +75,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum tristique massa ac fringilla. Etiam risus arcu, tempor sollicitudin finibus quis, convallis id eros. Morbi </p>
 
 
-                    <img src="../assets/images/step_01.png" alt="">
+                    <img id="item" src="../assets/images/step_02.png" alt="">
                 </div>
             </div>
 
@@ -86,7 +86,7 @@
 
 
 
-                    <img src="../assets/images/step_01.png" alt="">
+                    <img id="item" src="../assets/images/step_03.png" alt="">
                 </div>
             </div>
 
@@ -96,7 +96,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum tristique massa ac fringilla. Etiam risus arcu, tempor sollicitudin finibus quis, convallis id eros. Morbi </p>
 
 
-                    <img src="../assets/images/step_01.png" alt="">
+                    <img id="item" src="../assets/images/step_01.png" alt="">
                 </div>
             </div>
         </div>
@@ -107,7 +107,12 @@
 
 
 
-    <footer class="footer"></footer>
+    <footer>
+
+        <div class="footer">
+
+        </div>
+    </footer>
 
     <script src="../assets/script/burger.js"></script>
 

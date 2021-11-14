@@ -23,6 +23,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--white);
 }
 
 .navbar {
@@ -30,8 +31,8 @@ body {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(8, 8, 8);
 }
 
 .navbar-links {
@@ -51,7 +52,7 @@ body {
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 1rem;
 }
 
@@ -73,8 +74,12 @@ body {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   border-radius: 10px;
+}
+
+.logo {
+  width: 2%;
 }
 
 @media (max-width: 540px) {
@@ -208,19 +213,20 @@ span {
   text-align: center;
 }
 
-footer.footer {
-  background-color: var(--green-light);
+.footer {
+  background-color: var(--gray-light);
+  height: 100px;
 }
 
 .container_row {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 .card_2 {
   display: flex;
   flex-direction: column-reverse;
-  margin-left: 4vh;
-  margin-right: 4vh;
+  width: 60%;
+  margin: auto;
 }
 
 h1 {
@@ -228,19 +234,16 @@ h1 {
   margin-bottom: 4vh;
   margin-top: 4vh;
 }
+#item {
+  width: 320px;
+}
 
 @media screen and (max-width: 540px) {
-  .container_section_1 {
-    width: 90%;
-    margin-left: 0;
-    margin-right: 0;
-    margin: auto;
-  }
   .container_1 {
     display: flex;
     flex-direction: column;
-    margin-left: 2vh;
-    margin-right: 2vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
   }
 
   .card_1 {
@@ -250,5 +253,18 @@ h1 {
 
   img {
     width: 300px;
+  }
+
+  .container_row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 4%;
   }
 }
