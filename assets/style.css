@@ -194,6 +194,7 @@ button {
   height: 50px;
   background-color: #1b9097;
   color: white;
+  background-image: url(../assets/images/banner_wave.svg);
 }
 
 button:hover {
